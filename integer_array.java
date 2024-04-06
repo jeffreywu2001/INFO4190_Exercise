@@ -1,12 +1,12 @@
 import java.util.Arrays;
 
-class SortStrArray {
+class SortIntArray {
     public static void main(String[] args) {
-        String[] strArray = {"orange", "donut", "sushi", "apple", "pizza"};
-        System.out.println("Original String Array: " + Arrays.toString(strArray));
-        SortableArray<String> sortableStrArray = new SortableArray<>(strArray);
-        sortableStrArray.sort();
-        System.out.println("Sorted String Array: " + Arrays.toString(sortableStrArray.toArray()));
+        Integer[] intArray = {9, 6, 4, 1, 8};
+        System.out.println("Original Integer Array: " + Arrays.toString(intArray));
+        SortableArray<Integer> sortableIntArray = new SortableArray<>(intArray);
+        sortableIntArray.sort();
+        System.out.println("Sorted Integer Array: " + Arrays.toString(sortableIntArray.toArray()));
     }
 
     static class SortableArray<T extends Comparable<T>> {
