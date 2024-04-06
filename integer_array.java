@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SortStrArray {
+class SortStrArray {
     public static void main(String[] args) {
         String[] strArray = {"orange", "donut", "sushi", "apple", "pizza"};
         System.out.println("Original String Array: " + Arrays.toString(strArray));
