@@ -3,14 +3,14 @@ import java.util.Arrays;
 public class SortableArrayExample {
     public static void main(String[] args) {
         // Sort an array of integers
-        Integer[] intArray = {5, 2, 9, 1, 7};
+        Integer[] intArray = {9, 4, 6, 2, 1};
         System.out.println("Original Integer Array: " + Arrays.toString(intArray));
         SortableArray<Integer> sortableIntArray = new SortableArray<>(intArray);
         sortableIntArray.sort();
         System.out.println("Sorted Integer Array: " + Arrays.toString(sortableIntArray.toArray()));
 
         // Sort an array of strings
-        String[] strArray = {"banana", "apple", "orange", "grape", "pineapple"};
+        String[] strArray = {"donut", "banana", "cherry", "peach", "sushi"};
         System.out.println("\nOriginal String Array: " + Arrays.toString(strArray));
         SortableArray<String> sortableStrArray = new SortableArray<>(strArray);
         sortableStrArray.sort();
