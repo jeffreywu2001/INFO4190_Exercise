@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SortIntArray {
+class SortIntArray {
     public static void main(String[] args) {
         Integer[] intArray = {9, 6, 4, 1, 8};
         System.out.println("Original Integer Array: " + Arrays.toString(intArray));
