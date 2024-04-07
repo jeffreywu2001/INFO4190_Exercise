@@ -2,8 +2,11 @@ import java.util.Arrays;
 
 class SortIntArray {
     public static void main(String[] args) {
-        Integer[] intArray = {9, 6, 4, 1, 8};
+
+        Integer[] intArray = {7, 2, 4, 6, 9};
         System.out.println("Original Integer Array: " + Arrays.toString(intArray));
+
+         //create a sortablearray instance for integers
         SortableArray<Integer> sortableIntArray = new SortableArray<>(intArray);
         sortableIntArray.sort();
         System.out.println("Sorted Integer Array: " + Arrays.toString(sortableIntArray.toArray()));
