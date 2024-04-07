@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 class SortStrArray {
     public static void main(String[] args) {
-        String[] strArray = {"p", "e", "a", "b", "c"};
+        String[] strArray = {"orange", "donut", "sushi", "apple", "pizza"};
         System.out.println("Original String Array: " + Arrays.toString(strArray));
         SortableArray<String> sortableStrArray = new SortableArray<>(strArray);
         sortableStrArray.sort();

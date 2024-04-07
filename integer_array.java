@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 class SortIntArray {
     public static void main(String[] args) {
-        Integer[] intArray = {3, 4, 1, 2, 6};
+        Integer[] intArray = {9, 6, 4, 1, 8};
         System.out.println("Original Integer Array: " + Arrays.toString(intArray));
         SortableArray<Integer> sortableIntArray = new SortableArray<>(intArray);
         sortableIntArray.sort();
