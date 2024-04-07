@@ -2,14 +2,13 @@ import java.util.Arrays;
 
 class SortStrArray {
     public static void main(String[] args) {
-        String[] strArray = {"g", "e", "a", "b", "i"};
+        String[] strArray = {"p", "e", "a", "b", "c"};
         System.out.println("Original String Array: " + Arrays.toString(strArray));
         SortableArray<String> sortableStrArray = new SortableArray<>(strArray);
         sortableStrArray.sort();
         System.out.println("Sorted String Array: " + Arrays.toString(sortableStrArray.toArray()));
     }
 
-    //create a sortable array for strings
     static class SortableArray<T extends Comparable<T>> {
         private T[] array;
 
