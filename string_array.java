@@ -2,8 +2,10 @@ import java.util.Arrays;
 
 class SortStrArray {
     public static void main(String[] args) {
-        String[] strArray = {"orange", "donut", "sushi", "apple", "pizza"};
+        String[] strArray = {"b", "a", "c", "d", "e"};
         System.out.println("Original String Array: " + Arrays.toString(strArray));
+
+        //create a sortablearray for strings
         SortableArray<String> sortableStrArray = new SortableArray<>(strArray);
         sortableStrArray.sort();
         System.out.println("Sorted String Array: " + Arrays.toString(sortableStrArray.toArray()));
